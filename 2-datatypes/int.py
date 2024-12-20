@@ -8,4 +8,4 @@ a = float(x)
 b = int(y)
 print(a)
 print(b)
-
+ 
