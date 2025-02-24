@@ -1,0 +1,8 @@
+num = 7              #prime number=number which is divisible by 1 and itself is called as prime number
+
+for i in range(2,num):      #For suppose we take 7 it checks 7 divisible by 2 or not,if divisible it is not a prime
+    if num % i == 0 :
+        print("not prime")          #If the number not divisible by 2 it is a prime number
+        break                         #else statement are written for if  condition it will be printed 5 times/
+else:                                   #else statement are written for for condition it will be printed only 1 time
+    print("prime")
