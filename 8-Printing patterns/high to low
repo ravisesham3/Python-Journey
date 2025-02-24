@@ -1,0 +1,6 @@
+
+
+for i in range(5):              # print first i value after then go to j
+    for j in range(5-i):       # If printing of j value is /5-0 --index 0,/5-1--> index 1        
+        print("#",end='')                                  
+    print()
