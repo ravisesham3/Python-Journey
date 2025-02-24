@@ -1,0 +1,5 @@
+print("#",end='')
+print("#",end='')           #In this we use end='' condition for in row order
+print("#",end='')
+print("#",end='')
+
