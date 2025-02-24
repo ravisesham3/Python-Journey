@@ -1,0 +1,4 @@
+print("#")
+print("#")
+print("#")              #In this we don't use end='' condition
+print("#")
