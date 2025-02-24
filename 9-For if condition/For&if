@@ -1,0 +1,11 @@
+nums = [10,16,18,11,26]
+
+
+for num in nums:                #In this we check the number is divisible by 5 or not,if the number is divisible by 5 it will be printed
+
+
+    if num % 5 == 0:
+        print(num)              #break condition is used for more numbers are divisible by 5 , the 1st number will be printed remaining are break down
+        break
+else:                              #these two cases are done when there is no can divisible by 5, #If we use else for if condition print statement is displayed in 5 times
+    print("not found")              #If we use else for for condition print statement is displayed in only one time
